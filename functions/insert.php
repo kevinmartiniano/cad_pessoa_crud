@@ -11,4 +11,6 @@ if($_POST) {
     $sql = "INSERT INTO pessoa (nome, endereco, telefone, nascimento) VALUES ('{$nome}', '{$endereco}', '{$telefone}', '{$nascimento}')";
 
     $connect->query($sql);
+
+    header('Location: index.php');
 }

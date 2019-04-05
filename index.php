@@ -1,3 +1,6 @@
+<?php
+require_once 'functions/select.php';
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -47,30 +50,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Rua ...</td>
-                            <td>11 11111111</td>
-                            <td>11/11/1111</td>
-                            <td><a href="#">Editar</a>&nbsp;<a href="#">Deletar</a></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Rua ...</td>
-                            <td>11 11111111</td>
-                            <td>11/11/1111</td>
-                            <td><a href="#">Editar</a>&nbsp;<a href="#">Deletar</a></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>Larry the Bird</td>
-                            <td>Rua ...</td>
-                            <td>11 11111111</td>
-                            <td>11/11/1111</td>
-                            <td><a href="#">Editar</a>&nbsp;<a href="#">Deletar</a></td>
-                        </tr>
+                        <?php echo $rowTb; ?>
                     </tbody>
                 </table>
             </div>

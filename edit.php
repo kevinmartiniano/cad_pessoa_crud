@@ -36,25 +36,25 @@ require_once 'functions/update.php';
                 <form action="" method="POST">
                     <div class="form-group">
                         <label for="txtNome">Nome</label>
-                        <input type="text" class="form-control" id="txtNome" aria-describedby="nomeHelp" placeholder="Digite o nome" value="<?php echo $nome; ?>">
+                        <input type="text" class="form-control" id="txtNome" name="txtNome" aria-describedby="nomeHelp" placeholder="Digite o nome" value="<?php echo $nome; ?>">
                         <small id="nomeHelp" class="form-text text-muted">Digite o nome completo!</small>
                     </div>
                     <div class="form-group">
                         <label for="txtEndereco">Endereço</label>
-                        <input type="text" class="form-control" id="txtEndereco" aria-describedby="enderecoHelp" placeholder="Digite o endereço" value="<?php echo $endereco; ?>">
+                        <input type="text" class="form-control" id="txtEndereco" name="txtEndereco" aria-describedby="enderecoHelp" placeholder="Digite o endereço" value="<?php echo $endereco; ?>">
                         <small id="enderecoHelp" class="form-text text-muted">Digite a rua e o número!</small>
                     </div>
                     <div class="form-group">
                         <label for="txtTelefone">Telefone</label>
-                        <input type="text" class="form-control" id="txtTelefone" aria-describedby="telefoneHelp" placeholder="Digite o telefone" value="<?php echo $telefone; ?>">
+                        <input type="text" class="form-control" id="txtTelefone" name="txtTelefone" aria-describedby="telefoneHelp" placeholder="Digite o telefone" value="<?php echo $telefone; ?>">
                         <small id="telefoneHelp" class="form-text text-muted">Digite o número do telefone!</small>
                     </div>
                     <div class="form-group">
                         <label for="txtNascimento">Data de nascimento</label>
-                        <input type="date" class="form-control" id="txtNascimento" aria-describedby="nascimentoHelp" placeholder="Digite a data de nascimento" value="<?php echo $nascimento; ?>">
+                        <input type="date" class="form-control" id="txtNascimento" name="txtNascimento" aria-describedby="nascimentoHelp" placeholder="Digite a data de nascimento" value="<?php echo $nascimento; ?>">
                         <small id="nascimentoHelp" class="form-text text-muted">Digite a data de nascimento!</small>
                     </div>
-                    <input type="submit" class="btn btn-primary" value="Salvar" />
+                    <input type="submit" class="btn btn-primary" value="Salvar" name="btnSalvar"/>
                 </form>
             </div>
         </div>

@@ -23,7 +23,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <a href="#" class="btn btn-secondary">Criar</a>
+                <a href="create.php" class="btn btn-secondary">Criar</a>
             </div>
         </div>
         <div class="row">

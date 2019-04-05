@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h1>
-                    Formulário de cadastro
+                    Criar cadastro
                 </h1>
             </div>
         </div>
@@ -44,7 +44,7 @@
                         <input type="date" class="form-control" id="txtNascimento" aria-describedby="nascimentoHelp" placeholder="Digite a data de nascimento">
                         <small id="nascimentoHelp" class="form-text text-muted">Digite a data de nascimento!</small>
                     </div>
-                    <input type="submit" class="btn btn-primary" value="Criar" />
+                    <input type="submit" class="btn btn-primary" value="Salvar" />
                 </form>
             </div>
         </div>

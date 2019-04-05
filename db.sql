@@ -3,7 +3,7 @@ USE db_cad_pessoa;
 
 CREATE TABLE pessoa (
     id INT(12) NOT NULL AUTO_INCREMENT,
-    name VARCHAR(25) NOT NULL,
+    nome VARCHAR(25) NOT NULL,
     endereco VARCHAR(50) NOT NULL,
     telefone VARCHAR(15) NOT NULL,
     nascimento DATE NOT NULL,

@@ -16,6 +16,13 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
+                <nav class="nav nav-pills nav-fill">
+                    <a class="nav-link active" href="index.php">Inicio</a>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
                 <h1>
                     Criar cadastro
                 </h1>

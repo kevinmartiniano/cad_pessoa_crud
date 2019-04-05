@@ -13,9 +13,62 @@
     </title>
 </head>
 <body>
-    <h1>
-        Hello World!
-    </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>
+                    Cadastro de Pessoas
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <a href="#" class="btn btn-secondary">Criar</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-hover table-ligth">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Endereco</th>
+                            <th scope="col">Telefone</th>
+                            <th scope="col">Nascimento</th>
+                            <th scope="col">Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Rua ...</td>
+                            <td>11 11111111</td>
+                            <td>11/11/1111</td>
+                            <td><a href="#">Editar</a>&nbsp;<a href="#">Deletar</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Rua ...</td>
+                            <td>11 11111111</td>
+                            <td>11/11/1111</td>
+                            <td><a href="#">Editar</a>&nbsp;<a href="#">Deletar</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry the Bird</td>
+                            <td>Rua ...</td>
+                            <td>11 11111111</td>
+                            <td>11/11/1111</td>
+                            <td><a href="#">Editar</a>&nbsp;<a href="#">Deletar</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
